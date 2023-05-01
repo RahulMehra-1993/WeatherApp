@@ -246,6 +246,7 @@ image {
   display: none;
 }
 
+/* backGround wallpapers */
 .rainy {
   background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/29/buildings-1867550_960_720.jpg");
 }
