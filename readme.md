@@ -6,7 +6,7 @@ This is a simple demo weather app that allows users to search for weather inform
 
 - Real-time weather data for any location in the world
 - Customizable background images and animations based on the weather conditions
-- Displaying the location country by fetch open sourc flag cdn
+- Displaying the location country by fetch open source flag cdn
 
 ## Usage
 
