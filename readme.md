@@ -14,7 +14,7 @@ https://rahulmehra-1993.github.io/WeatherApp/
 
 ## Usage
 
-To use the app, simply enter the name of a city or town in the search bar and click the "Search" button. The app will retrieve the current weather data for that location and display it on the screen.
+To use the app, simply enter the name of a city or town in the search bar with a key (for restricted api call counts) and click the "Search" button. The app will retrieve the current weather data for that location and display it on the screen.
 
 ## Screenshots
 
