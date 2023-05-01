@@ -18,7 +18,7 @@ To use the app, simply enter the name of a city or town in the search bar with a
 
 ## Screenshots
 
-<img src="./ss.png" width="50%"><img src="./ss2.png" width="50%">
+<img src="./ss.png" width="50%"> <img src="./ss2.png" width="50%">
 
 ## Animations
 
