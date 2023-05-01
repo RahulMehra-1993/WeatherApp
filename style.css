@@ -25,18 +25,15 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
   width: 90%;
   height: 100%;
-  padding: 1rem;
-  overflow: hidden;
 }
 
 .wrapperInside {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   height: 60rem;
 }
 
@@ -63,10 +60,11 @@ body {
   content: "";
   width: 25rem;
   height: 12.5rem;
-  background-image: url("https://cdn.leonardo.ai/users/d68f73d9-bfc1-42ec-ae09-f95d981531d6/generations/b669b883-825d-4ceb-bf31-1e5ad0863e71/variations/Default_3d_black_cloud_1_b669b883-825d-4ceb-bf31-1e5ad0863e71_0.png");
-  position: fixed;
-  top: -50%;
-  left: 60%;
+  background-image: url("https://cdn.leonardo.ai/users/d68f73d9-bfc1-42ec-ae09-f95d981531d6/generations/25e385f3-1288-4b1f-9832-428644f9e579/variations/Default_simple_sun_1_25e385f3-1288-4b1f-9832-428644f9e579_0.png");
+  top: -100%;
+  left: 90%;
+  width: 25rem;
+  height: 12.5rem;
   z-index: -1;
   background-repeat: no-repeat;
   background-position: center;
@@ -152,14 +150,16 @@ body {
 
 .firstBox,
 .secondBox {
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   align-content: center;
   gap: 1rem;
   border-radius: 1rem;
   width: 10rem;
-  height: 90%;
+  height: 80%;
   cursor: pointer;
   opacity: 0.5;
   color: white;
@@ -213,7 +213,8 @@ image {
   width: 100%;
 }
 .active {
-  width: 30rem;
+  width: 40rem;
+
   opacity: 1;
   box-shadow: 1rem 1rem 4rem black;
   animation: none;
@@ -259,14 +260,17 @@ image {
 
 /* max-width */
 @media only screen and (max-width: 480px) {
+  body {
+    overflow: scroll;
+  }
   .wrapperOutside {
     width: 100%;
     padding: 2rem;
   }
 
   .wrapperInside {
+    align-content: flex-start;
     flex-direction: column;
-    height: 90%;
   }
   .searchBar {
     width: 100%;
@@ -280,7 +284,7 @@ image {
   }
   .firstBox > *,
   .secondBox > * {
-    width: 90%;
+    width: 80%;
   }
 
   .active {
