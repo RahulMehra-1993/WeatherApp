@@ -214,7 +214,6 @@ image {
 }
 .active {
   width: 40rem;
-
   opacity: 1;
   box-shadow: 1rem 1rem 4rem black;
   animation: none;
@@ -224,6 +223,11 @@ image {
 
 .active > * {
   transform: translateX(0);
+}
+
+/* empty */
+.empty{
+  border: 2px solid red;
 }
 
 /* flip */
